@@ -1,0 +1,50 @@
+/*
+Original: KotatsuApp/Kotatsu
+Fork: swolem12/Kotatsu
+Created-by: swolem12
+Created-date: 2025-11-22
+Changes: Add initial Chirui Reader styles.
+License: Follow original repository license; track changes/dates in source files.
+*/
+:root{
+  --bg: #ffffff;
+  --fg: #111827;
+  --accent: #6b21a8;
+  --border: rgba(0,0,0,0.04);
+}
+[data-theme="dark"]{
+  --bg: #0b1220;
+  --fg: #e6eef8;
+  --accent: #8b5cf6;
+  --border: rgba(255,255,255,0.08);
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  background:var(--bg);
+  color:var(--fg);
+}
+.app-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:12px 16px;
+  background:linear-gradient(90deg, rgba(107,33,168,0.08), transparent);
+  border-bottom:1px solid var(--border);
+}
+#app{
+  display:flex;
+  height:calc(100vh - 64px);
+}
+.sidebar{
+  width:280px;
+  padding:16px;
+  border-right:1px solid var(--border);
+  overflow:auto;
+}
+.content{
+  flex:1;
+  padding:16px;
+  overflow:auto;
+}
