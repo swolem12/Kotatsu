@@ -1,0 +1,40 @@
+<!doctype html>
+<!--
+Original: KotatsuApp/Kotatsu
+Fork: swolem12/Kotatsu
+Created-by: swolem12
+Created-date: 2025-11-22
+Changes: Add initial Chirui Reader web prototype scaffolding.
+License: Follow original repository license; track changes/dates in source files.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chirui Reader (prototype)</title>
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <h1>Chirui Reader (prototype)</h1>
+    <nav>
+      <button id="theme-toggle">Toggle Theme</button>
+    </nav>
+  </header>
+
+  <main id="app">
+    <aside class="sidebar">
+      <h2>Library</h2>
+      <ul id="manga-list"></ul>
+    </aside>
+
+    <section class="content">
+      <div id="reader">
+        <p>Welcome — use the UI to begin building the reader.</p>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>
