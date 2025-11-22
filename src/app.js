@@ -11,7 +11,7 @@ const themeToggle = document.getElementById('theme-toggle');
 if (themeToggle) {
   themeToggle.addEventListener('click', () => {
     const current = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-    root.setAttribute('data-theme', current === 'dark' ? 'dark' : 'light');
+    root.setAttribute('data-theme', current);
     localStorage.setItem('chirui:theme', current);
   });
 }
