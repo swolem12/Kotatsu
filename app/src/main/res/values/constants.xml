@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="url_github" translatable="false">https://github.com/swolem12/Kotatsu</string>
+	<!-- TODO: Update with Chirui-specific Telegram when available -->
 	<string name="url_telegram_web" translatable="false">https://t.me/kotatsuapp</string>
 	<string name="url_telegram" translatable="false">tg://resolve?domain=kotatsuapp</string>
+	<!-- TODO: Update with Chirui-specific Weblate project when available -->
 	<string name="url_weblate" translatable="false">https://hosted.weblate.org/engage/kotatsu</string>
+	<!-- TODO: Update with Chirui-specific user manual when available -->
 	<string name="url_user_manual" translatable="false">https://kotatsu.app/manuals/guides/getting-started/</string>
+	<!-- TODO: Update with Chirui-specific error reporting service when available -->
 	<string name="url_error_report" translatable="false">https://bugs.kotatsu.app/report</string>
 	<string name="account_type_sync" translatable="false">org.chirui.sync</string>
 	<string name="github_updates_repo" translatable="false">swolem12/Kotatsu</string>
@@ -19,6 +23,7 @@
 	<string name="acra_password" translatable="false">kgpuhoNJpSsQDCwu</string>
 	<string name="sync_authority_history" translatable="false">org.koitharu.chirui.history</string>
 	<string name="sync_authority_favourites" translatable="false">org.koitharu.chirui.favourites</string>
+	<!-- TODO: Update with Chirui-specific Telegram backup bot when available -->
 	<string name="tg_backup_bot_name" translatable="false">kotatsu_backup_bot</string>
 	<string name="discord_app_id" translatable="false">1395464028611940393</string>
 	<string name="app_icon_url" translatable="false">https://raw.githubusercontent.com/swolem12/Kotatsu/refs/heads/devel/metadata/en-US/icon.png</string>
@@ -44,6 +49,7 @@
 		<item>0</item>
 		<item>1</item>
 	</string-array>
+	<!-- TODO: Update with Chirui-specific sync servers when available -->
 	<string-array name="sync_url_list" translatable="false">
 		<item>https://sync.kotatsu.app</item>
 		<item>https://moe.shirizu.org</item>
