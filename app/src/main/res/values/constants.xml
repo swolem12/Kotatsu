@@ -3,6 +3,7 @@
 	<string name="url_github" translatable="false">https://github.com/swolem12/Kotatsu</string>
 	<!-- TODO: Update with Chirui-specific Telegram when available -->
 	<string name="url_telegram_web" translatable="false">https://t.me/kotatsuapp</string>
+	<!-- Telegram deep link (same channel as above) -->
 	<string name="url_telegram" translatable="false">tg://resolve?domain=kotatsuapp</string>
 	<!-- TODO: Update with Chirui-specific Weblate project when available -->
 	<string name="url_weblate" translatable="false">https://hosted.weblate.org/engage/kotatsu</string>
@@ -25,6 +26,7 @@
 	<string name="sync_authority_favourites" translatable="false">org.koitharu.chirui.favourites</string>
 	<!-- TODO: Update with Chirui-specific Telegram backup bot when available -->
 	<string name="tg_backup_bot_name" translatable="false">kotatsu_backup_bot</string>
+	<!-- TODO: Update with Chirui-specific Discord app ID when available -->
 	<string name="discord_app_id" translatable="false">1395464028611940393</string>
 	<string name="app_icon_url" translatable="false">https://raw.githubusercontent.com/swolem12/Kotatsu/refs/heads/devel/metadata/en-US/icon.png</string>
 	<string-array name="values_theme" translatable="false">
