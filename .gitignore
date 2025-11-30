@@ -1,3 +1,10 @@
 node_modules/
 dist/
 .env
+
+# Gradle build artifacts
+.gradle/
+build/
+*.apk
+*.aab
+local.properties
