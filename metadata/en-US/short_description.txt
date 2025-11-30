@@ -1,1 +1,1 @@
-Manga reader with online catalogues
+Chirui manga reader
